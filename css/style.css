@@ -29,29 +29,75 @@
 /*Header*/
 
 header {
-	height: 200px;
-	background: red;
+	height: 150px;
 	margin-bottom: 20px;
+	border-bottom: 1px solid #ff0000;
 }
 header #header-overhead {
-	background: yellow;
-	height: 20px;
+	border-bottom: 4px solid #ff0000;
 }
-.news-container {
+header #header-overhead p {
+	display: inline;
+	line-height: 28px;
+}
+header #header-overhead a {
+	float: right;
+	margin-right: 10px;
+	font-style: italic;
+	font-size: 14px;
+	line-height: 28px;
+	color: red;
+	font-weight: bold;
+}
+header #header-overhead a:hover{
+	text-decoration: none;
+}
+header #header-overhead a.more-info {
 	float: none;
 }
-.kurcina {
-	height: 800px;
+header #header-overhead a.register {
+	background: #000;
+	color: white;
+	font-weight: 500;
+	line-height: 28px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
-.image img {
-	border-bottom: 3px solid #FF0000;
+header #header-overhead a.signin {
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 28px
+}
+header .header-container {
+	float: none;
+	padding: 0;
+	padding-top: 35px;
+}
+header .header-container ul {
+	display: inline;
+	vertical-align: bottom;
+	margin-left: 10px;
+}
+header .header-container ul li a {
+	color: #ff0000;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+header .header-container ul li a#thisweeks{
+	color: #999;
 }
 
 /*News Feed*/
 
-section#news-feed {
-
+.news-container {
+	float: none;
 }
+.image img {
+	border-bottom: 3px solid #FF0000;
+}
+section#news-feed {}
 section#news-feed article .category a {
 	font-size: 16px;
 	font-weight: bold;
@@ -84,7 +130,7 @@ section#news-feed article {
 
 section#featured-news {
 	border-left: 1px solid #999;
-	margin-top:5px;
+	margin-top: 5px;
 }
 .featured-header {
 	font-size: 38px;
@@ -92,7 +138,7 @@ section#featured-news {
 	color: black;
 	line-height: 38px;
 }
-.featured-header:hover{
+.featured-header:hover {
 	color: black;
 	text-decoration: underline;
 }
@@ -129,7 +175,7 @@ section#featured-news article .article-category {
 	font-weight: 600;
 	margin-bottom: 0;
 }
-section#featured-news article h4.article-header{
+section#featured-news article h4.article-header {
 	margin: 0;
 	line-height: 24px;
 }
@@ -160,7 +206,8 @@ section#featured-news article a.related-link:hover {
 }
 
 /*Promo section*/
-.newsweek-header{
+
+.newsweek-header {
 	background: #20C3F3;
 	color: white;
 	font-size: 13.5px;
@@ -169,7 +216,7 @@ section#featured-news article a.related-link:hover {
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-.newsweek-header-yellow{
+.newsweek-header-yellow {
 	background: #FFF100;
 	color: #000;
 	font-size: 13.5px;
@@ -177,15 +224,15 @@ section#featured-news article a.related-link:hover {
 	padding: 3px 10px;
 	font-weight: 600;
 }
-.promo article{
+.promo article {
 	margin-top: 20px;
 	background: url("../img/stripes.png");
 	padding: 15px;
 }
-.promo article ul{
+.promo article ul {
 	margin-top: 10px;
 }
-.promo article li{
+.promo article li {
 	border-radius: 50%;
 	border: 1px solid white;
 	background: #ccc;
@@ -194,18 +241,18 @@ section#featured-news article a.related-link:hover {
 	padding: 8px;
 	outline-color: #000;
 }
-.promo article li:hover{
+.promo article li:hover {
 	background: #20C3F3;
 	color: #fff;
 	border: 1px solid #fff;
 }
-.promo article span.email{
+.promo article span.email {
 	color: #999;
 	font-size: 12px;
-	padding-right: 20	px;
+	padding-right: 20 px;
 	border-bottom: 1px solid #999;
 }
-.promo article a.signup{
+.promo article a.signup {
 	color: black;
 	background: #20C3F3;
 	padding: 2px 10px;
@@ -213,39 +260,36 @@ section#featured-news article a.related-link:hover {
 	font-size: 12px;
 	float: right;
 }
-.promo article .email-signup{
+.promo article .email-signup {
 	background: white;
 	padding: 5px;
 	margin-top: 10px;
 }
-#subscribe{
+.promo article.subscribe {
 	padding: 0;
 }
-.promo article.mini-article{
+.promo article.mini-article {
 	background: white;
 	border-bottom: 1px solid #999;
 	padding: 0 10px;
 }
-.promo article.mini-article:last-child{
+.promo article.mini-article:last-child {
 	border-bottom: 0;
 }
-.promo article.mini-article a{
+.promo article.mini-article a {
 	color: #505050;
 	font-size: 18px;
 }
-.promo article.mini-article p{
+.promo article.mini-article p {
 	font-size: 15px;
 	color: #7d7d7d;
 	font-style: italic;
 	line-height: 20px;
 }
-.promo article.mini-article p i{
+.promo article.mini-article p i {
 	color: #20C3f3;
 	font-style: normal;
 }
-
-
-
 
 /*Big Shot*/
 
