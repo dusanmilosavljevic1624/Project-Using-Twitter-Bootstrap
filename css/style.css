@@ -1,0 +1,57 @@
+/*Bootstrap General Classes*/
+
+.container-fluid {
+	padding: 0;
+}
+
+/*General Classes*/
+
+.hidden-section-header {
+	position: absolute;
+	top: -9999px;
+}
+
+/*Layout classes*/
+
+
+/*Header*/
+
+header {
+	height: 200px;
+	background: red;
+}
+header #header-overhead {
+	background: yellow;
+	height: 20px;
+}
+.news-container {
+	float: none;
+}
+.kurcina {
+	height: 800px;
+}
+.image {
+	height: 400px;
+}
+section#news-feed{
+	height: 600px;
+}
+section#featured-news{
+	height: 800px;
+}
+#big-shot{
+	height: 400px;
+}
+#week-issue{
+	height: 600px;
+}
+#wisdom-watch{
+	height: 600px;
+}
+#issues{
+	background: #505050;
+	height: 500px;
+}
+#footer{
+	height: 100px;
+}
