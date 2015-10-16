@@ -25,6 +25,10 @@
 .article-text.col-md-5 {
 	padding-left: 0;
 }
+.slideshow{
+	color: #20C3F3;
+	text-transform: uppercase;
+}
 
 /*Header*/
 
@@ -292,10 +296,22 @@ section#featured-news article a.related-link:hover {
 }
 
 /*Big Shot*/
-
-#big-shot {
-	height: 400px;
+section#big-shot{
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
 }
+section#big-shot a{
+	color: black;
+	font-size: 23px;
+	font-weight: 600;
+}
+section#big-shot p{
+	font-size: 17px;
+	color: #5a5a5a;
+	line-height: 19px;
+	font-weight: 400;
+}
+
 #week-issue {
 	height: 600px;
 }
